@@ -1,0 +1,13 @@
+name: opencv
+version: 0.0.1
+inherits: wercker/rvm
+type: service
+platform: ubuntu@12.04
+description: opencv
+keywords:
+  - opencv
+script: |
+  sudo apt-get -y update
+  sudo apt-get -y install libopencv-dev
+env:
+  RAILS_ENV: test
