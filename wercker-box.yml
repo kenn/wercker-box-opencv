@@ -1,6 +1,6 @@
 name: opencv
 version: 0.0.1
-inherits: wercker/rvm
+inherits: wercker/rvm@2.0.1
 type: service
 platform: ubuntu@12.04
 description: opencv
